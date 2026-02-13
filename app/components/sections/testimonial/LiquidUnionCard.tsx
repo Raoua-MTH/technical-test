@@ -28,13 +28,13 @@ const LiquidUnionCard = () => {
         </div>
 
         <div className="relative z-10 flex items-center md:gap-2 gap-1 pb-2">
-          <div className="md:w-[24px] md:h-[24px] h-[16px] w-[16px] rounded-full border-[2px] border-white bg-orange-500 flex items-center justify-center shadow-lg">
+          <div className="md:w-[24px] md:h-[24px] h-[16px] w-[16px] rounded-full border-[2px] border-white bg-panto-orange flex items-center justify-center shadow-lg">
             <svg className="w-[12px] h-[12px]  text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={4}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
             </svg>
           </div>
-          <div className="md:w-[24px] md:h-[24px] h-[16px] w-[16px]  rounded-full border-[2px] border-white bg-cyan-400 shadow-lg" />
-          <div className="md:w-[24px] md:h-[24px] h-[16px] w-[16px] rounded-full border-[2px] border-white bg-gray-600/80 shadow-lg" />
+          <div className="md:w-[24px] md:h-[24px] h-[16px] w-[16px]  rounded-full border-[2px] border-white bg-[#00D6C9] shadow-lg" />
+          <div className="md:w-[24px] md:h-[24px] h-[16px] w-[16px] rounded-full border-[2px] border-white bg-[#7c7c7c] shadow-lg" />
         </div>
       </div>
     </div>
