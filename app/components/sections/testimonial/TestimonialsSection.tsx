@@ -65,7 +65,7 @@ export const TestimonialsSection = () => {
 
                 <div className="mt-15 flex gap-10 flex-wrap justify-center relative">
                     <div className="flex xl:flex-row flex-col h-full   gap-10  items-center relative w-full ">
-                        <div className="xl:flex hidden absolute z-20 h-[50px] -left-7  w-[50px]  items-center justify-center rounded-full  bg-white shadow-2xl">
+                        <div className="xl:flex hidden absolute z-20 h-[50px] -mt-36 -left-7  w-[50px]  items-center justify-center rounded-full  bg-white shadow-2xl">
                             <Image
                                 src={ArrowIcon}
                                 alt="arrow"
@@ -75,7 +75,7 @@ export const TestimonialsSection = () => {
                                 priority
                             />
                         </div>
-                        <div className=" xl:flex hidden  z-20 rotate-180 absolute h-[50px] -right-7 w-[50px]  items-center justify-center rounded-full  bg-white shadow-2xl">
+                        <div className=" xl:flex hidden  z-20 rotate-180 absolute h-[50px] -mt-36 -right-7 w-[50px]  items-center justify-center rounded-full  bg-white shadow-2xl">
                             <Image
                                 src={ArrowIcon}
                                 alt="arrow"

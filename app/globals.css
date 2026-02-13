@@ -1,7 +1,8 @@
+@tailwind utilities;
 @import "tailwindcss";
 
 :root {
-  /* --primary: #000000; */
+  --primary: #000000;
 }
 
 @theme inline {
@@ -10,7 +11,10 @@
   --color-panto-orange: #E58411;
   --color-panto-gray: #F7F7F7;
   --font-gilroy:var(--font-gilroy);
-  --font-sans: var(--font-inter);
+    --font-sans: var(--font-inter);
+
+
+  
 }
 
 @media (prefers-color-scheme: dark) {
@@ -46,27 +50,12 @@ body {
   font-weight: 700;
 }
 
-
-
-
-::-webkit-scrollbar {
-  width: 10px;
+/* globals.css or a component-level class */
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
 }
 
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.2);
-  border-radius: 9999px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 0, 0, 0.35);
-}
-
-* {
-  scrollbar-width: thin;
-  scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
 }
