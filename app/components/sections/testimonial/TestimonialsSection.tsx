@@ -30,20 +30,20 @@ const clients: Client[] = [
         bgImage: bgImage1
     },
     {
-        name: "Siti Rahma",
-        title: "Interior Designer",
+        name: "Ibuk Sukijan",
+        title: "Ibu Rumah Tangga",
         message:
-            "“Produk sangat berkualitas dan pengiriman cepat sekali!“",
+            "“Makasih Panto, aku sekarang berasa tinggal di apartment karena barang-barang yang terlihat mewah“",
         rating: 4,
         image: UserProfile2,
         bgImage: bgImage2
 
     },
     {
-        name: "Budi Santoso",
-        title: "Entrepreneur",
+        name: "Mpok Ina",
+        title: "Karyawan Swasta",
         message:
-            "“Pelayanan luar biasa dan desain sangat elegan.“",
+            "“Sangat terjangkau untuk kantong saya yang tidak terlalu banyak“",
         rating: 4,
         image: UserProfile3,
         bgImage: bgImage3
@@ -98,9 +98,8 @@ export const TestimonialsSection = () => {
 
                                 />
                             ))}
-                        </>                    </div>
-
-
+                        </>
+                    </div>
                 </div>
             </div>
         </div>

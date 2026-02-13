@@ -4,14 +4,17 @@ import Stars from '../../ui/Stars'
 
 type ProductCardProps = {
     image: StaticImageData | string
+    category:string,
+    label:string,
+    price:number
 }
 
-export const ProductCard = ({ image }: ProductCardProps) => {
+export const ProductCard = (props: ProductCardProps) => {
     return (
         <div className='hover:shadow-2xl hover:scale-[1.02] cursor-pointer h-[492px] rounded-[20px] mb-2 flex flex-col max-h-[492px] w-[268.09px] overflow-hidden relative'>
             <div className='absolute flex justify-center items-center w-full'>
                 <Image
-                    src={image}
+                    src={props.image}
                     alt="Chair"
                     width={217.9}
                     height={255.9}
@@ -25,11 +28,11 @@ export const ProductCard = ({ image }: ProductCardProps) => {
 
             <div className='flex flex-col bg-white h-full rounded-b-[20px] pt-[14px] pb-[27px] px-[21px]'>
                 <div>
-                    <label htmlFor="chair" className='text-[#8D8D8D] font-sans text-[17px]'>Chair</label>
+                    <label htmlFor="chair" className='text-[#8D8D8D] font-sans text-[17px]'>{props.category}</label>
                 </div>
 
                 <div className='flex-1'>
-                    <label className='text-[#0D1B39] font-sans text-[22px] font-semibold'>Anjay Chair</label>
+                    <label className='text-[#0D1B39] font-sans text-[22px] font-semibold'>{props.label}</label>
                 </div>
 
                 <Stars />
@@ -39,7 +42,7 @@ export const ProductCard = ({ image }: ProductCardProps) => {
                 <div className='h-12 flex flex-row items-center'>
                     <div className='font-semibold flex-1'>
                         <sup className='text-[14px]'>$&nbsp;&nbsp;</sup>
-                        <span className='text-[22px]'>299</span>
+                        <span className='text-[22px]'>{props.price}</span>
                     </div>
 
                     <div className="h-12 w-12 flex items-center justify-center rounded-full bg-[#0D1B39]">
