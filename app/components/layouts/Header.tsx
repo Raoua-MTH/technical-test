@@ -55,7 +55,7 @@ export default function Header() {
                         </div>
                     </div>
                     <button
-                        className="md:hidden"
+                        className="md:hidden md:ml-0 ml-4"
                         onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
                     >
                         <div>{isMobileMenuOpen ? <XMarkIcon width={24} /> : <Bars2Icon width={24} />}</div>
@@ -64,7 +64,7 @@ export default function Header() {
             </div>
             {
                 isMobileMenuOpen && (
-                    <div className="md:hidden bg-black/30 w-full text-white mt-5 backdrop-blur-xs p-6 flex flex-col gap-4">
+                    <div className="md:hidden bg-white w-full text-white mt-5 backdrop-blur-lg  p-6 flex flex-col gap-4">
                         <a className="gilroy-medium text-lg leading-none text-panto-orange">Furniture</a>
                         <a className="gilroy-medium text-lg leading-none text-panto-orange">Shop</a>
                         <a className="gilroy-medium text-lg leading-none text-panto-orange">About Us</a>

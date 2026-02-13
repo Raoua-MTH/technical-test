@@ -11,7 +11,7 @@ type TestimonialsCardProps = {
 }
 export const TestimonialsCard = (props: TestimonialsCardProps) => {
     return (
-        <div className=' relative h-[476px] w-[370px] '>
+        <div className=' relative md:h-[476px] md:w-[370px] '>
             <div className=" flex flex-col h-full absolute w-full px-[18px] pb-5">
                 <div className="flex-1">
 

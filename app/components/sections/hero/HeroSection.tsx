@@ -13,7 +13,7 @@ export default function HeroSection() {
         <div className="flex flex-col items-center justify-center w-full pointer-events-auto lg:mt-[153px] md:mt-[70px] mt-2">
           <HeroTitle />
           <HeroSubtitle />
-          <div className="lg:mt-[47px] mt-3">
+          <div className="lg:mt-[47px] ">
             <HeroSearch />
           </div>
         </div>

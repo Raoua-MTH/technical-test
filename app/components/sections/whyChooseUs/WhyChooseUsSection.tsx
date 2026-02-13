@@ -6,7 +6,7 @@ import WhyChooseUsCard from './WhyChooseUsCard'
 
 export default function WhyChooseUsSection() {
     return (
-        <div className="flex lg:h-[400px]  xl:flex-nowrap flex-wrap w-full lg:flex-row flex-col lg:px-[80px] px-6 items-center ">
+        <div className="flex lg:h-[400px] mb-8 lg:mb-0 xl:flex-nowrap flex-wrap w-full lg:flex-row flex-col lg:px-[80px] px-6 items-center ">
             <div className='lg:w-[76%] w-full lg:mb-0 mb-8'>
                 <WhyChooseUsTitle />
             </div>

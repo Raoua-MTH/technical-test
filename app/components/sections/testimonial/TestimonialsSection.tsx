@@ -53,7 +53,7 @@ const clients: Client[] = [
 
 export const TestimonialsSection = () => {
     return (
-        <div className="lg:mt-[255px] mt-20">
+        <div className="lg:mt-[255px] mt-20 lg:px-0 px-8">
             <div className="flex flex-col items-center">
                 <div className="-ml-5 font-gilroy font-semibold tracking-[0.175em] text-panto-orange text-center text-[18px]">
                     TESTIMONIALS

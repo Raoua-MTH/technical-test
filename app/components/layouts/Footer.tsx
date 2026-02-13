@@ -7,10 +7,10 @@ export default function Footer() {
     const currentYear = new Date().getFullYear();
 
     return (
-        <footer className="w-full bg-panto-gray mt-[245px] pt-28  pb-15 md:px-46 px-5 font-sans">
+        <footer className="w-full bg-panto-gray lg:mt-[245px] mt-[20px] pt-28  pb-15 md:px-46 px-5 font-sans">
             <div className="max-w-7xl mx-auto">
 
-                <div className="flex flex-col md:flex-row flex-wrap justify-between gap-33 mb-20">
+                <div className="flex flex-col md:flex-row flex-wrap justify-between lg:gap-33 gap-10 mb-20">
                     <div className="flex-1 ">
                         <h2 className="text-[28px] font-gilroy tracking-[0.01em] font-bold text-panto-black mb-6">Panto</h2>
                         <p className="text-panto-black/80 font-gilroy font-medium text-[15px] leading-[160%] w-[95%]">
@@ -18,7 +18,7 @@ export default function Footer() {
                             comfortable service and all-around facilities.
                         </p>
                     </div>
-                    <div className="flex flex-2 flex-wrap justify-between ">
+                    <div className="flex flex-2 lg:flex-row flex-col lg:gap-0 gap-8  justify-between ">
                         <div className=''>
                             <h3 className="text-panto-orange font-gilroy  mb-4 mt-1 text-[17px] ">Services</h3>
                             <ul className=" text-black/80 font-gilroy font-medium text-[15px] space-y-4">
@@ -72,13 +72,14 @@ export default function Footer() {
                                         className=" 
                                         object-cover 
                                         priority"
-                                    />                                    <a href="#" className="hover:text-[#f6973f] transition">Instagram</a>
+                                    />                                    
+                                    <a href="#" className="hover:text-[#f6973f] transition">Instagram</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col md:flex-row  items-center pt-11  mr-3   ">
+                <div className="flex flex-col md:flex-row  items-center lg:pt-11 pt-2  md:mr-0 mr-3   ">
                     <p className="text-[15px]  text-[#1E2833]/60 tracking-[-0.2px] flex-1">Copyright ©{currentYear}</p>
                     <div className="flex gap-13 text-sm text-panto-black font-gilroy font-medium text-[14px]">
                         <a href="#" className="hover:underline">Terms & Conditions</a>
