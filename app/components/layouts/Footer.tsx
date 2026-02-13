@@ -79,7 +79,7 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col md:flex-row  items-center lg:pt-11 pt-2  md:mr-0 mr-3   ">
+                <div className="flex flex-col md:flex-row  items-center lg:pt-11 pt-2  md:mr-0 mr-3 md:gap-0 gap-3   ">
                     <p className="text-[15px]  text-[#1E2833]/60 tracking-[-0.2px] flex-1">Copyright ©{currentYear}</p>
                     <div className="flex gap-13 text-sm text-panto-black font-gilroy font-medium text-[14px]">
                         <a href="#" className="hover:underline">Terms & Conditions</a>
